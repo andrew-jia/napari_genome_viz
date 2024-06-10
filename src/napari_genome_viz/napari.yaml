@@ -1,4 +1,4 @@
-name: napari-genome-viz
+name: napari_genome_viz
 display_name: Napari 4d Genome Vizualisation
 contributions:
   commands:
