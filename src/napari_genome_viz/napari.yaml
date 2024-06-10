@@ -2,16 +2,16 @@ name: napari_genome_viz
 display_name: Napari 4d Genome Vizualisation
 contributions:
   commands:
-    - id: napari-genome-viz.get_reader
+    - id: napari_genome_viz.get_reader
       python_name: napari_genome_viz._reader:napari_get_reader
       title: Open data with Napari 4d Genome Vizualisation
-    - id: napari-genome-viz.get_interp_lines_widget
+    - id: napari_genome_viz.get_interp_lines_widget
       python_name: napari_genome_viz._widget:plot_interp_lines
       title: open interpolated lines widget
-    - id: napari-genome-viz.get_straight_lines_widget
+    - id: napari_genome_viz.get_straight_lines_widget
       python_name: napari_genome_viz._widget:plot_straight_lines
       title: open straight lines widget
-    - id: napari-genome-viz.get_plot_widget
+    - id: napari_genome_viz.get_plot_widget
       python_name: napari_genome_viz._widget:plot_dist_matrix
       title: open plot widget
   readers:
